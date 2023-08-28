@@ -1,1 +1,9 @@
-<p>news-section works!</p>
+<div class="news-container">
+  <h1>News</h1>
+  <div *ngFor="let item of newsData">
+    <elewa-website-elewa-news-item-card
+      [item]="item"
+    ></elewa-website-elewa-news-item-card>
+    <hr />
+  </div>
+</div>
